@@ -1,0 +1,15 @@
+[package]
+edition = "2021"
+name = "frontend"
+version = "0.1.0"
+[dependencies]
+
+
+
+[dependencies.dioxus]
+features = ["web", "fermi"]
+version = "0.2.4"
+
+
+[profile.dev]
+opt-level = 2
